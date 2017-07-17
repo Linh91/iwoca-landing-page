@@ -7,3 +7,12 @@ h2 {
 ul {
   color: #ff671d;
 }
+
+h2, ul {
+  display: inline;
+}
+
+.main-logo {
+  width: 200px;
+  height: 70px;
+}
