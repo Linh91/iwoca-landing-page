@@ -9,14 +9,8 @@
 </head>
 <body>
   <h1>Business finance. Simplified.</h1>
-  <h2><span>Small business credit facilities of up to £100,000. No</span>
-		<div id="ticker">
-			<ul>
-				<li> commitments.</li>
-				<li> hidden fees.</li>
-				<li> hassle.</li>
-  		</ul>
-		</div></h2>
+  <h2><span>Small business credit facilities of up to £100,000. No</span><div id="ticker"><ul><li>commitments.</li><li>hidden fees.</li><li>hassle.</li>
+  </ul></div></h2>
   <!-- <div id="ticker">
     <ul>
     <li>One fish, two fish, red fish, blue fish.</li>
@@ -27,7 +21,15 @@
 
   <script>
     $(function() {
-      $('#ticker').vTicker();
+      $('#ticker').vTicker(
+        {
+					speed: 700,
+					showItems: 1,
+					pause: 1500,
+					mousePause : false,
+					direction: "up",
+				}
+      );
     });
   </script>
 
