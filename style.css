@@ -2,6 +2,7 @@ h1 {
   color: white;
   font-family: 'Open Sans', sans-serif;
 }
+
 h2 {
   display: inline;
   color: white;
@@ -19,6 +20,9 @@ h2, ul {
 }
 
 .main-logo {
+  display: block;
+  margin: 0 auto;
+  margin-top: 130px;
   width: 200px;
   height: 60px;
 }
@@ -40,11 +44,8 @@ body {
   /*background-image: url("./images/designer.jpg");*/
 }
 
-/*.bg {
-  background-image: url("./images/designer.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+ /*{
+  text-align: center;
+  /*margin-top: 1000px;*/
 
 }*/
