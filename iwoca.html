@@ -8,26 +8,21 @@
   <script src="http://richhollis.github.com/vticker/downloads/jquery.vticker.js?v=1.13"></script>
 </head>
 <body>
+  <img src="./images/iwoca-logo.png" class="main-logo" alt="iwoca logo">
   <h1>Business finance. Simplified.</h1>
-  <h2><span>Small business credit facilities of up to £100,000. No</span>
-		<div id="ticker">
-			<ul>
-				<li> commitments.</li>
-				<li> hidden fees.</li>
-				<li> hassle.</li>
-  		</ul>
-		</div></h2>
-  <!-- <div id="ticker">
-    <ul>
-    <li>One fish, two fish, red fish, blue fish.</li>
-    <li>Four fish, five fish, jump fish, dive fish.</li>
-    <li>Six fish, seven fish... what? Eleven fish?</li>
-    </ul>
-  </div> -->
-
+  <h2 style="display:inline"><span>Small business credit facilities of up to £100,000.</span><div id="ticker"><ul><li>commitments.</li><li>hidden fees.</li><li>hassle.</li>
+  </ul></div></h2>
   <script>
     $(function() {
-      $('#ticker').vTicker();
+      $('#ticker').vTicker(
+        {
+					speed: 400,
+					showItems: 1,
+					pause: 1500,
+					mousePause : false,
+					direction: "up",
+				}
+      );
     });
   </script>
 

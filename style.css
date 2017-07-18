@@ -1,6 +1,10 @@
+h1 {
+  color: white;
+  /*font-family: 'Open Sans', sans-serif;*/
+}
 h2 {
   display: inline;
-  color: #0075c9;
+  color: white;
   margin: 0;
 }
 
@@ -14,5 +18,31 @@ h2, ul {
 
 .main-logo {
   width: 200px;
-  height: 70px;
+  height: 60px;
 }
+
+.vticker-one {
+	display: inline;
+	width: 20%;
+	margin-top: -38px;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background-image: url("./images/designer.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-image: url("./images/designer.jpg");*/
+}
+
+/*.bg {
+  background-image: url("./images/designer.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}*/
