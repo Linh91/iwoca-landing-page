@@ -8,40 +8,25 @@
   <script src="http://richhollis.github.com/vticker/downloads/jquery.vticker.js?v=1.13"></script>
 </head>
 <body>
-  <h5 class="first-sentence">
-  <span>Small business credit facilities of up to £100,000. </span>
-  <p class="second-sentence">No</p>
-  <div class="menu" id="vticker-748536202596e3661dc49d">
-    <ul style="list-style: none;">
-      <li>commitments.</li>
-      <li>hidden fees.</li>
-      <li>hassle.</li>
-    </ul>
-
+  <div id="abc">
+  <!-- Popup Div Starts Here -->
+  <div id="popupContact">
+  <!-- Contact Us Form -->
+  <form action="#" id="form" method="post" name="form">
+  <img id="close" src="images/3.png" onclick ="div_hide()">
+  <h2>Contact Us</h2>
+  <hr>
+  <input id="name" name="name" placeholder="Name" type="text">
+  <input id="telephone" name="telephone" placeholder="Telephone" type="text">
+  <input id="email" name="email" placeholder="Email" type="text">
+  <textarea id="msg"></textarea>
+  <a href="javascript:%20check_empty()" id="submit">Send</a>
+  </form>
   </div>
-
-  <script type="text/javascript">
-  						jQuery(function($){
-  							$(document).ready(function(){
-  								$("#vticker-748536202596e3661dc49d")
-  									.vTicker(
-  									{
-  										speed: 400,
-  										showItems: 1,
-  										pause: 1500,
-  										mousePause : false,
-  										direction: "up",
-  									}
-  								);
-  							});
-  						});
-  					</script>
-            </h5>
-
-            <style>
-.menu { text-align:center; }
-.menu ul { display:inline-table;}
-/*.menu ul li {display:inline;}*/
-</style>
+  <!-- Popup Div Ends Here -->
+  </div>
+  <!-- Display Popup Button -->
+  <h1>Click Button To Popup Form Using Javascript</h1>
+  <button id="popup" onclick="div_show()">Popup</button>
 </body>
 </html>
