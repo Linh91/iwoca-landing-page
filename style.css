@@ -1,15 +1,17 @@
 h1 {
   color: white;
-  /*font-family: 'Open Sans', sans-serif;*/
+  font-family: 'Open Sans', sans-serif;
 }
 h2 {
   display: inline;
   color: white;
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 ul {
   color: #ff671d;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h2, ul {
