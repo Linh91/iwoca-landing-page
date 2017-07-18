@@ -1,6 +1,7 @@
 h1 {
   color: white;
   font-family: 'Open Sans', sans-serif;
+  text-align: center;
 }
 
 h2 {
@@ -8,6 +9,7 @@ h2 {
   color: white;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
+  text-align: center;
 }
 
 ul {
@@ -36,16 +38,17 @@ h2, ul {
 body {
   height: 100%;
   margin: 0;
-  background-image: url("./images/bike_store.jpg");
+  background-image: url("./images/bike_store4.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /*background-image: url("./images/designer.jpg");*/
 }
 
- /*{
-  text-align: center;
-  /*margin-top: 1000px;*/
+html {
+  min-height: 100%;
+}
 
-}*/
+h2 {
+  white-space: nowrap;
+}
