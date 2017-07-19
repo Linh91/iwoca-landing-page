@@ -2,12 +2,8 @@ html * {
 	font-family: 'Open Sans', sans-serif !important;
 }
 h1#main-title,
-h2#title-two,
-#ticker {
+h2#title-two, #info-text, #ticker {
   font-weight: lighter;
-}
-h1#main-title,
-h2#title-two {
 	color: white;
 	text-align: center;
   text-shadow: 2px 2px 4px #18325b;
@@ -45,7 +41,9 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+  background-attachment: fixed;
 }
-/*html {
-	min-height: 100%;
-}*/
+h3#info-text {
+  text-shadow: none;
+  margin-top: 260px;
+}
