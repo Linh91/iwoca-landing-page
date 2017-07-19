@@ -36,18 +36,23 @@ h2#title-two {
 	margin-top: -38px;
 }
 body {
-	background-image: url("./images/bike_store.jpg");
+	background-image:url("./images/designer.jpg"), url("./images/bike_store.jpg");
 	height: 100%;
 	background-position: center;
-	background-repeat: no-repeat;
+	background-repeat: repeat-x, repeat;
 	background-size: cover;
   background-attachment: fixed;
 }
 h3#info-text {
   text-shadow: none;
-  margin-top: 260px;
+  margin-top: 270px;
 }
 #arrow {
   width: 25px;
   margin-left: 660px;
 }
+/*h3#info-text, span {
+  background:#fff;
+  padding:0 5px;
+
+}*/

@@ -1,9 +1,9 @@
 function check_empty() {
-	if (document.getElementById('name').value == "" || document.getElementById('email').value == "" || document.getElementById('msg').value == "") {
-		alert("Fill All Fields !");
+	if (document.getElementById('name').value == "" || document.getElementById('telephone').value == "") {
+		alert("Name and telephone must be filled.");
 	} else {
 		document.getElementById('form').submit();
-		alert("Form Submitted Successfully...");
+		alert("Thank you, we'll be in touch shortly.");
 	}
 }
 
