@@ -1,54 +1,37 @@
-h1 {
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
+html * {
+	font-family: 'Open Sans', sans-serif !important;
 }
-
-h2 {
-  display: inline;
-  color: white;
-  margin: 0;
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
+h1#main-title,
+h2#title-two {
+	color: white;
+	text-align: center;
 }
-
-ul {
-  color: #ff671d;
-  font-family: 'Open Sans', sans-serif;
+ul#title-list {
+	color: #ff671d;
 }
-
-h2, ul {
-  display: inline;
-}
-
-.main-logo {
-  display: block;
-  margin: 0 auto;
-  margin-top: 130px;
-  width: 200px;
-  height: 60px;
-}
-
+h2#title-two,
+ul,
 .vticker-one {
 	display: inline;
+}
+.main-logo {
+	display: block;
+	margin: 0 auto;
+	margin-top: 130px;
+	width: 200px;
+	height: 60px;
+}
+.vticker-one {
 	width: 20%;
 	margin-top: -38px;
 }
-
 body {
-  height: 100%;
-  margin: 0;
-  background-image: url("./images/bike_store4.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+	background-image: url("./images/bike_store4.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-
 html {
-  min-height: 100%;
-}
-
-h2 {
-  white-space: nowrap;
+	min-height: 100%;
 }

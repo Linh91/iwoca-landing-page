@@ -2,38 +2,40 @@
 <html>
 <head>
   <title>iwoca</title>
+  <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="form.css">
   <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
   <script src="script.js"></script>
   <script src="http://richhollis.github.com/vticker/downloads/jquery.vticker.js?v=1.13"></script>
 </head>
 <body>
-  <img src="./images/iwoca-white-logo.png" class="main-logo" alt="iwoca logo">
-  <h1>Business finance. Simplified.</h1>
-  <h2 style="display:inline">
-		<div class="sentence-two" style="text-align: center;">
-		<span>Small business credit facilities of up to £100,000.</span>
+  <img id="logo" src="./images/iwoca-white-logo.png" class="main-logo" alt="iwoca logo">
+  <h1 id="main-title">Business finance. Simplified.</h1>
+  <h2 id="title-two" style="display:inline">
+	<div class="sentence-two" style="text-align: center;">
+		<span>Small business credit facilities of up to &#163;100,000.</span><b/r>
 	</div>
-		<div id="ticker">No
-			<ul style="list-style: none;">
-				<li>&nbsp;commitments.</li>
-				<li>hidden fees.</li>
-				<li>hassle.</li>
-  		</ul>
-		</div></h2>
-  <script>
-    $(function() {
-      $('#ticker').vTicker(
-        {
-					speed: 400,
-					showItems: 1,
-					pause: 1500,
-					mousePause : false,
-					direction: "up",
-				}
-      );
-    });
-  </script>
-
+	<div id="ticker">No
+		<ul id="title-list" style="list-style: none;">
+			<li>&nbsp;commitments.</li>
+			<li>hidden fees.</li>
+			<li>hassle.</li>
+		</ul>
+	</div>
+  </h2>
+  <div id="request-popup">
+		<div id="popupContact">
+			<form action="#" id="form" method="post" name="form">
+				<img id="close" onclick="div_hide()" src="./images/close-button.png">
+				<h2 class="head-foot" id="form-text">Please leave your details and an iwoca expert will call you back</h2>
+				<hr>
+				<input id="name" name="name" placeholder="Name *" type="text"> <input id="telephone" name="telephone" placeholder="Telephone *" type="text"> <input id="email" name="email" placeholder="Email" type="text"> <input id="checkbox" name="checkbox" type="checkbox"> <label for="checkbox"><i>I’m happy to receive iwoca marketing emails</i></label> <a class="head-foot" href="javascript:%20check_empty()" id="submit">Send</a>
+			</form>
+		</div>
+	</div>
+	<div class="requestButton" id="button">
+		<button class="hvr-grow" id="popup" onclick="div_show()">Request a call back</button>
+	</div>
 </body>
 </html>
