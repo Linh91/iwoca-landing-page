@@ -52,7 +52,7 @@ input[type="text"],
 	background-color: #313131;
 	overflow: auto;
 	position: absolute;
-	margin-top: -330px;
+	margin-top: -390px;
 }
 img#close {
 	right: -14px;
@@ -107,6 +107,7 @@ button {
   text-shadow: 2px 2px 4px #2e2f30;
 }
 .hvr-grow {
+  font-weight: lighter;
 	display: inline-block;
 	vertical-align: middle;
 	-webkit-transform: perspective(1px) translateZ(0);
