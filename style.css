@@ -47,3 +47,7 @@ h3#info-text {
   text-shadow: none;
   margin-top: 260px;
 }
+#arrow {
+  width: 25px;
+  margin-left: 660px;
+}
