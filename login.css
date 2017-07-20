@@ -11,7 +11,24 @@ h1#login-main-head {
 	font-family: 'Open Sans', sans-serif;
 	margin-left: 1300px;
 	font-size: 20px;
-	/*font-weight: 900;*/
+}
+div#home-link {
+	width: -1%;
+	border-radius: 3px;
+	border: 2px solid #ff671d;
+	background-color: Transparent;
+	text-shadow: 3px 3px 5px black;
+	min-width: 150px;
+	min-height: 40px;
+	word-wrap: nowrap;
+	text-align: center;
+	padding-top: 6px;
+	float: right;
+	margin-top: -78px;
+}
+.home {
+	text-decoration: none;
+	font-size: 20px;
 }
 body {
 	background-image: url("./images/bike_store.jpg");
@@ -23,10 +40,10 @@ body {
 }
 form {
     border: 3px solid #f1f1f1;
-		width: 60%;
-		margin-left: 300px;
+		width: 500px;
+    margin: 0 auto;
+		margin-top: 100px;
 }
-
 input[type=text], input[type=password] {
     width: 100%;
     padding: 12px 40px;
