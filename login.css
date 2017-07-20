@@ -49,7 +49,7 @@ button,
     min-height: 40px;
     word-wrap: nowrap;
     float: right;
-    margin-top: -78px;
+    margin-top: -150px;
     color: color: #fff;
     padding-top: 12px;
 }
@@ -126,4 +126,7 @@ label,
 .loginbtn,
 .cancelbtn {
 	font-weight: 900;
+}
+h1#login-main-head {
+  margin-top: 100px;
 }
