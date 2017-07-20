@@ -46,7 +46,7 @@ h2#title-two {
     margin-top: -38px;
 }
 body {
-    background-image: url("./images/designer.jpg"), url("./images/bike_store.jpg");
+    background-image: url("./images/bike.jpg"), url("./images/bike_store.jpg");
     height: 100%;
     background-position: center;
     background-repeat: repeat-x, repeat;
