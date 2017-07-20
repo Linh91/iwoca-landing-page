@@ -8,9 +8,9 @@ h2#title-two, #info-text, #ticker {
 	text-align: center;
   text-shadow: 2px 2px 4px #18325b;
 }
-h2#title-two, #info-text {
-	margin-top: -10px;
-}
+/*#info-text {
+	margin-top: -60px;
+}*/
 ul#title-list {
 	color: #ff671d;
 }
@@ -56,7 +56,7 @@ body {
 }
 h4#info-text {
   text-shadow: none;
-  margin-top: 200px;
+  margin-top: 250px;
 	vertical-align: middle;
 }
 .login {
@@ -66,10 +66,10 @@ h4#info-text {
 	/*margin-left: 1000px;*/
 	font-size: 20px;
 }
-#login-link {
-	float: right;
+div#login-link {
+	/*left: 500px;*/
 	width: 100%;
-	position: relative;
+	/*position: relative;*/
 }
 li#hassle {
 	text-indent: -120px;
