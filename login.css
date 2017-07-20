@@ -38,8 +38,9 @@ button,
 .container-two {
     margin: 8px;
 }
-div#home-link {
-    width: -1%;
+.home {
+    padding-bottom: 10px;
+    width: 10%;
     border-radius: 3px;
     border: 2px solid #ff671d;
     background-color: Transparent;
@@ -47,9 +48,10 @@ div#home-link {
     min-width: 150px;
     min-height: 40px;
     word-wrap: nowrap;
-    padding-top: 6px;
     float: right;
     margin-top: -78px;
+    color: color: #fff;
+    padding-top: 12px;
 }
 body {
     background-image: url("./images/designer.jpg");
@@ -75,7 +77,8 @@ input[type=password] {
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
-button {
+.cancelbtn,
+.loginbtn {
     background-color: white;
     padding: 9px 20px;
     border: none;
