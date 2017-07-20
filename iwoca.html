@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>iwoca</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="form.css">
@@ -10,6 +11,9 @@
   <script src="http://richhollis.github.com/vticker/downloads/jquery.vticker.js?v=1.13"></script>
 </head>
 <body>
+  <div id="login-link">
+    <a href="login.html" class="login">Login</a>
+  </div>
   <img id="logo" src="./images/iwoca-white-logo.png" class="main-logo" alt="iwoca logo">
   <h1 id="main-title">Business finance. Simplified.</h1>
   <h2 id="title-two" style="display:inline">
@@ -19,8 +23,8 @@
 	<div id="ticker">No
 		<ul id="title-list" style="list-style: none;">
 			<li>&nbsp;commitments.</li>
-			<li>hidden fees.</li>
-			<li>hassle.</li>
+			<li id="hidden">hidden fees.</li>
+			<li id="hassle">hassle.</li>
 		</ul>
 	</div>
   </h2>
@@ -40,9 +44,10 @@
 		</div>
 	</div>
 	<div class="requestButton" id="button">
-		<button class="hvr-grow" id="popup" onclick="div_show()">Request a call back</button>
+		<button class="hvr-grow" id="popup" onclick="div_show()">Request a call back <img id="phone" src="./images/phone.png"></button>
 	</div>
-  <h3 id="info-text"><span>Scroll down for more</span></h3>
-  <img id="arrow" src="./images/arrows.png">
+  <div class='arrow'>
+      <h4 id="info-text">Scroll down for more &darr;</h4>
+  </div>
 </body>
 </html>

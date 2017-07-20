@@ -55,8 +55,8 @@ input[type="text"],
 	margin-top: -390px;
 }
 img#close {
-	right: -14px;
-	top: -14px;
+	right: -50px;
+	top: -51px;
 }
 div#popupContact {
 	left: 50%;
@@ -123,4 +123,7 @@ button {
 .hvr-grow:active {
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
+}
+img#phone {
+  width: 22px;
 }
