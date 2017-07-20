@@ -9,7 +9,8 @@ div#home-link,
 		text-shadow: 3px 3px 5px black;
 }
 .login,
-.home {
+.home,
+.cancelbtn {
     text-decoration: none;
 }
 .login,
@@ -75,10 +76,12 @@ input[type=password] {
     box-sizing: border-box;
 }
 button {
-    background-color: #0075c9;
+    background-color: white;
     padding: 9px 20px;
     border: none;
     cursor: pointer;
+		margin-left: 1px;
+		color: #0075c9;
 }
 button:hover {
     opacity: 0.8;
@@ -116,4 +119,8 @@ div#form-container {
 label,
 .remember {
 	text-shadow: 3px 3px 5px black;
+}
+.loginbtn,
+.cancelbtn {
+	font-weight: 900;
 }
