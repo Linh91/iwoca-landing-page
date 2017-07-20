@@ -16,7 +16,8 @@ input[type=text] {
 }
 img#close,
 #submit,
-button {
+button#login-top,
+button#popup {
     cursor: pointer;
 }
 input[type=text],
@@ -24,11 +25,12 @@ p {
     margin-top: 30px;
 }
 .requestButton,
-.head-foot {
+.sendbtn {
     text-align: center;
 }
 #submit,
-button {
+button#login-top,
+button#popup {
     color: #fff;
 }
 .requestButton,
@@ -38,8 +40,8 @@ button {
 .requestButton {
     margin-top: 20px;
 }
-.head-foot,
-button {
+.sendbtn,
+button#popup {
     font-size: 20px;
 }
 h2#form-text,
@@ -83,6 +85,7 @@ h2#form-text {
     padding: 20px 35px;
     margin: -10px -50px;
     border-radius: 10px 10px 0 0;
+    font-size: 20px;
 }
 hr {
     margin: 10px -50px;
@@ -100,19 +103,26 @@ input[type=text] {
 }
 #submit {
     text-decoration: none;
-    width: 93%;
+    width: 100%;
     display: block;
     background-color: #0075c9;
     border-radius: 5px;
 }
-button {
-    width: 35%;
+button#login-top,
+button#popup {
     border-radius: 3px;
     border: 3px solid #ff671d;
     background-color: Transparent;
     text-shadow: 3px 3px 5px black;
     font-size: 30px;
     word-wrap: break-word;
+}
+button#login-top {
+    border: 2px solid #ff671d;
+    font-size: 20px;
+}
+button#popup {
+  width: 35%;
 }
 .hvr-grow {
     font-weight: lighter;

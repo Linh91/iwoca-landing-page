@@ -1,11 +1,11 @@
-function check_empty() {
-	if (document.getElementById('name').value == "" || document.getElementById('telephone').value == "") {
-		alert("Name and telephone must be filled.");
-	} else {
-		document.getElementById('form').submit();
-		alert("Thank you, we'll be in touch shortly.");
-	}
-}
+// function check_empty() {
+// 	if (document.getElementById('name').value == "" || document.getElementById('telephone').value == "") {
+// 		alert("Name and telephone must be filled.");
+// 	} else {
+// 		document.getElementById('form').submit();
+// 		alert("Thank you, we'll be in touch shortly.");
+// 	}
+// }
 
 function div_show() {
 	if (document.getElementById('request-popup').style.display = "block") {

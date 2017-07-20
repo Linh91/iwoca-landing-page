@@ -11,7 +11,7 @@
   <script src="http://richhollis.github.com/vticker/downloads/jquery.vticker.js?v=1.13"></script>
 </head>
 <body>
-  <button onclick="window.location.href='login.html'" class="login">Login</button>
+  <button onclick="window.location.href='login.html'" id="login-top" class="login">Login</button>
   <img id="logo" src="./images/iwoca-white-logo.png" class="main-logo" alt="iwoca logo">
   <h1 id="main-title">Business finance. Simplified.</h1>
   <h2 id="title-two" style="display:inline">
@@ -32,12 +32,12 @@
 				<img id="close" onclick="div_hide()" src="./images/close-button.png">
 				<h2 class="head-foot" id="form-text">Please leave your details and an iwoca expert will call you back</h2>
 				<hr>
-				<input id="name" name="name" placeholder="Name *" type="text">
-        <input id="telephone" name="telephone" placeholder="Telephone *" type="text">
+				<input id="name" name="name" placeholder="Name *" type="text" required/>
+        <input id="telephone" name="telephone" placeholder="Telephone *" type="text" required/>
         <input id="email" name="email" placeholder="Email" type="text">
         <input id="checkbox" name="checkbox" type="checkbox">
         <label for="checkbox"><i>I’m happy to receive iwoca marketing emails</i></label>
-        <a class="head-foot" href="javascript:%20check_empty()" id="submit">Send</a>
+        <button type="submit" id="submit" class="sendbtn">Send</button>
 			</form>
 		</div>
 	</div>

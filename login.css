@@ -84,7 +84,8 @@ input[type=password] {
     border: none;
     cursor: pointer;
 		margin-left: 1px;
-		color: #0075c9;
+		color: #006bb7;
+    font-weight: bold;
 }
 button:hover {
     opacity: 0.8;

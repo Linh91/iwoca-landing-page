@@ -59,23 +59,6 @@ h4#info-text {
     margin-top: 250px;
     vertical-align: middle;
 }
-/*.login {
-    text-decoration: none;
-    font-size: 20px;
-    padding-bottom: 10px;
-    width: 10%;
-    border-radius: 3px;
-    border: 2px solid #ff671d;
-    background-color: Transparent;
-    text-shadow: 3px 3px 5px black;
-    min-width: 150px;
-    min-height: 40px;
-    word-wrap: nowrap;
-    float: right;
-    margin-top: -156px;
-    color: color: #fff;
-    padding-top: 12px;
-}*/
 .login {
   font-size: 20px;
   width: 11%;
@@ -85,32 +68,6 @@ h4#info-text {
   padding-top: 12px;
   padding-bottom: 14px;
   margin-right: 10px;
-}
-button#login-link {
-    /*width: 10%;
-    border-radius: 3px;
-    border: 2px solid #ff671d;
-    background-color: Transparent;
-    text-shadow: 3px 3px 5px black;
-    min-width: 150px;
-    min-height: 40px;
-    word-wrap: nowrap;
-    text-align: center;
-    padding-top: 6px;
-    float: right;*/
-    /*padding-bottom: 10px;
-    width: 10%;
-    border-radius: 3px;
-    border: 2px solid #ff671d;
-    background-color: Transparent;
-    text-shadow: 3px 3px 5px black;
-    min-width: 150px;
-    min-height: 40px;
-    word-wrap: nowrap;
-    float: right;
-    margin-top: -156px;
-    color: color: #fff;
-    padding-top: 12px;*/
 }
 li#hassle {
     text-indent: -120px;
