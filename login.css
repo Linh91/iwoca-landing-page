@@ -58,7 +58,7 @@ input[type=text], input[type=password] {
 button {
     background-color: #0075c9;
     color: white;
-    padding: 14px 20px;
+    padding: 9px 20px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
@@ -73,7 +73,7 @@ button:hover {
 .cancelbtn {
     width: auto;
     padding: 10px 18px;
-    background-color: #f44336;
+    background-color: #ff671d;
 		margin-left: 175px;
 		padding: 6px 30px;
 }
@@ -87,10 +87,8 @@ button:hover {
 		border-radius: 5px;
 }
 .container-two {
-    /*width: 470px;*/
 		width: 90%;
 		display: block;
-		background-color: #0075c9;
 		border-radius: 5px;
 		padding: 0px 9px;
 		margin: 8px 0;
@@ -100,7 +98,12 @@ span.psw {
 		margin-left: 16px;
     padding-top: 16px;
 }
-.loginbtn,
+.loginbtn {
+	font-size: 20px;
+}
 .cancelbtn {
 	font-size: 16px;
+}
+label {
+	font-size: 20px;
 }
