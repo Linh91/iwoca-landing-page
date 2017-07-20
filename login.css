@@ -2,6 +2,9 @@ html * {
 	font-family: 'Open Sans', sans-serif !important;
 	color: white;
 }
+h1#login-main-head {
+	text-align: center;
+}
 .login {
 	color: white;
 	text-decoration: none;
