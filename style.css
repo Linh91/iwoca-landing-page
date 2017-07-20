@@ -1,82 +1,84 @@
 html * {
-	font-family: 'Open Sans', sans-serif !important;
+    font-family: 'Open Sans', sans-serif !important;
 }
 h1#main-title,
-h2#title-two, #info-text, #ticker {
-  font-weight: lighter;
-	color: white;
-	text-align: center;
-  text-shadow: 2px 2px 4px #18325b;
+h2#title-two,
+#info-text,
+#ticker {
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px #18325b;
 }
 ul#title-list {
-	color: #ff671d;
+    color: #ff671d;
 }
 h2#title-two,
 ul,
 .vticker-one {
-	display: inline;
+    display: inline;
 }
 div#login-link,
 .login {
-	color: #fff;
+    color: #fff;
 }
 h1#main-title {
-  font-size: 50px;
-	margin-top: 20px;
-	margin-bottom:0em;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 0em;
 }
 h2#title-two {
-  font-size: 35px;
+    font-size: 35px;
 }
 .main-logo {
-	display: block;
-	margin: 0 auto;
-	width: 220px;
-	height: 60px;
-	margin-top: 100px;
-	display: inline-block;
-	margin-left: 40%;
-  -webkit-filter: drop-shadow(5px 5px 5px #454647);
-  filter: drop-shadow(5px 5px 5px #454647);
+    display: block;
+    margin: 0 auto;
+    width: 220px;
+    height: 60px;
+    margin-top: 100px;
+    display: inline-block;
+    margin-left: 40%;
+    -webkit-filter: drop-shadow(5px 5px 5px #454647);
+    filter: drop-shadow(5px 5px 5px #454647);
 }
 .vticker-one {
-	width: 20%;
-	margin-top: -38px;
+    width: 20%;
+    margin-top: -38px;
 }
 body {
-	background-image:url("./images/designer.jpg"), url("./images/bike_store.jpg");
-	height: 100%;
-	background-position: center;
-	background-repeat: repeat-x, repeat;
-	background-size: cover;
-  background-attachment: fixed;
-	background-color: #767676;
+    background-image: url("./images/designer.jpg"), url("./images/bike_store.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: repeat-x, repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #767676;
 }
 h4#info-text {
-  text-shadow: none;
-  margin-top: 250px;
-	vertical-align: middle;
+    text-shadow: none;
+    margin-top: 250px;
+    vertical-align: middle;
 }
 .login {
-	text-decoration: none;
-	font-size: 20px;
+    text-decoration: none;
+    font-size: 20px;
 }
 div#login-link {
-	width: -1%;
-	border-radius: 3px;
-	border: 2px solid #ff671d;
-	background-color: Transparent;
-	text-shadow: 3px 3px 5px black;
-	min-width: 150px;
-	min-height: 40px;
-	word-wrap: nowrap;
-	text-align: center;
-	padding-top: 6px;
-	float: right;
+    width: -1%;
+    border-radius: 3px;
+    border: 2px solid #ff671d;
+    background-color: Transparent;
+    text-shadow: 3px 3px 5px black;
+    min-width: 150px;
+    min-height: 40px;
+    word-wrap: nowrap;
+    text-align: center;
+    padding-top: 6px;
+    float: right;
 }
 li#hassle {
-	text-indent: -120px;
+    text-indent: -120px;
 }
 li#hidden {
-	text-indent: -30px;
+    text-indent: -30px;
 }
