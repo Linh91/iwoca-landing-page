@@ -19,17 +19,23 @@ button {
 	cursor: pointer;
 }
 input[type=text],
-p,
-.requestButton {
+p {
 	margin-top: 30px;
 }
-.requestButton {
+.requestButton,
+.head-foot {
 	text-align: center;
+}
+#submit,
+button {
+	color: #fff;
+}
+.requestButton {
 	width: 100%;
+	margin-top: 20px;
 }
 .head-foot, button {
 	font-size: 20px;
-	text-align: center;
 }
 h2#form-text,
 label {
@@ -37,7 +43,7 @@ label {
 }
 #checkbox,
 #submit {
-	margin-top: 40px;
+	margin-top: 18px;
 }
 input[type="text"],
 #submit {
@@ -91,23 +97,19 @@ input[type=text] {
 }
 #submit {
 	text-decoration: none;
-	width: 100%;
+	width: 93%;
 	display: block;
 	background-color: #0075c9;
-	color: #fff;
 	border-radius: 5px;
 }
 button {
-	width: 20%;
-	height: 60px;
+	width: 35%;
 	border-radius: 3px;
-	border: 2px solid #ff671d;
+	border: 3px solid #ff671d;
 	background-color: Transparent;
-	color: #fff;
   text-shadow: 3px 3px 5px black;
-	min-width: 150px;
-	min-height: 44px;
-	word-wrap: nowrap;
+	font-size: 30px;
+	word-wrap: break-word;
 }
 .hvr-grow {
   font-weight: lighter;
@@ -129,5 +131,5 @@ button {
 }
 
 img#phone {
-  width: 22px;
+  width: 25px;
 }
