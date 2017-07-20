@@ -53,6 +53,7 @@ body {
 	background-repeat: repeat-x, repeat;
 	background-size: cover;
   background-attachment: fixed;
+	background-color: ba
 }
 h4#info-text {
   text-shadow: none;
@@ -67,9 +68,18 @@ h4#info-text {
 	font-size: 20px;
 }
 div#login-link {
-	/*left: 500px;*/
-	width: 100%;
-	/*position: relative;*/
+	width: -1%;
+	border-radius: 3px;
+	border: 1px solid #ff671d;
+	background-color: Transparent;
+	color: #fff;
+	text-shadow: 3px 3px 5px black;
+	min-width: 150px;
+	min-height: 44px;
+	word-wrap: nowrap;
+	text-align: center;
+	padding-top: 6px;
+	float: right;
 }
 li#hassle {
 	text-indent: -120px;
