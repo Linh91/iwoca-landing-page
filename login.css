@@ -6,6 +6,7 @@ h1#login-main-head,
 div#home-link,
 .imgcontainer {
     text-align: center;
+		text-shadow: 3px 3px 5px black;
 }
 .login,
 .home {
@@ -111,4 +112,8 @@ div#form-container {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+label,
+.remember {
+	text-shadow: 3px 3px 5px black;
 }
