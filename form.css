@@ -20,7 +20,9 @@ button#login-top,
 button#popup {
     cursor: pointer;
 }
-input[type=text],
+input[type="text"],
+input[type="email"],
+input[type="tel"],
 p {
     margin-top: 30px;
 }
@@ -53,6 +55,8 @@ label {
     margin-top: 18px;
 }
 input[type="text"],
+input[type="tel"],
+input[type="email"],
 #submit {
     padding: 10px;
 }
@@ -91,7 +95,9 @@ h2#form-text {
 hr {
     margin: 10px -50px;
 }
-input[type=text] {
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
     width: 82%;
     padding-left: 40px;
     font-size: 16px;
