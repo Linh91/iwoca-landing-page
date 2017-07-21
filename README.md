@@ -22,7 +22,7 @@
 
 <img src="https://user-images.githubusercontent.com/17644847/28456668-00d2c4e8-6dfb-11e7-98d7-9cbfd603f323.png" width="35%">
 
-- Once request call back form is filled and user has pressed "Send", they will be redirected to confirmation page
+- Once request callback form is filled and user has pressed "Send", they will be redirected to a confirmation page
 
 <img src="https://user-images.githubusercontent.com/17644847/28457661-e99abcb4-6dfe-11e7-8a17-ff43ee7ce5c9.png" width="45%">
 
