@@ -11,6 +11,8 @@
 - Clone this repo
 - Copy full path of <strong>iwoca.html</strong> onto browser
 
+![screen shot 2017-07-21 at 10 37 25](https://user-images.githubusercontent.com/17644847/28458165-a402efb2-6e00-11e7-9141-89d9fe653514.png)
+
 ### Features 
 - Name and telephone number fields can not be empty
 
