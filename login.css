@@ -1,12 +1,12 @@
 html * {
     font-family: 'Open Sans', sans-serif !important;
-    color: #fff;
 }
 h1#login-main-head,
 div#home-link,
 .imgcontainer {
     text-align: center;
 		text-shadow: 3px 3px 5px black;
+    color: #fff;
 }
 .login,
 .home,
@@ -74,8 +74,9 @@ input[type=password] {
     padding: 12px 40px;
     margin: 20px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 2px solid #ff671d;
     box-sizing: border-box;
+    color: black;
 }
 .cancelbtn,
 .loginbtn {
@@ -113,6 +114,7 @@ button:hover {
 span.psw {
     margin-left: 16px;
     padding-top: 16px;
+    color: #006bb7;
 }
 div#form-container {
     position: fixed;
@@ -120,8 +122,7 @@ div#form-container {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-label,
-.remember {
+label {
 	text-shadow: 3px 3px 5px black;
 }
 .loginbtn,
@@ -130,4 +131,17 @@ label,
 }
 h1#login-main-head {
   margin-top: 100px;
+}
+#password-link,
+label#remember {
+  color: #006bb7;
+  text-shadow: none;
+  font-weight: 600;
+}
+.loginbtn {
+  border: 2px solid #ff671d;
+}
+label,
+.home {
+  color: #fff;
 }
