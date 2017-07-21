@@ -16,11 +16,11 @@
 ### Features 
 - Name and telephone number fields can not be empty
 
- <img src="https://user-images.githubusercontent.com/17644847/28456668-00d2c4e8-6dfb-11e7-98d7-9cbfd603f323.png" width="35%">
+ <img src="https://user-images.githubusercontent.com/17644847/28456669-00eaf0ea-6dfb-11e7-9f34-c91bd1086542.png" width="30%">
 
 - If email is given, it must be in the correct format
 
-<img src="https://user-images.githubusercontent.com/17644847/28456669-00eaf0ea-6dfb-11e7-9f34-c91bd1086542.png" width="30%">
+<img src="https://user-images.githubusercontent.com/17644847/28456668-00d2c4e8-6dfb-11e7-98d7-9cbfd603f323.png" width="35%">
 
 - Once request call back form is filled and user has pressed "Send", they will be redirected to confirmation page
 
