@@ -54,20 +54,15 @@ body {
     background-attachment: fixed;
     background-color: #767676;
 }
-h4#info-text {
-    text-shadow: none;
-    margin-top: 250px;
-    vertical-align: middle;
-}
 .login {
-  font-size: 20px;
-  width: 11%;
-  border: 2px solid #ff671d;
-  float: right;
-  text-shadow: 3px 3px 5px black;
-  padding-top: 12px;
-  padding-bottom: 14px;
-  margin-right: 10px;
+    font-size: 20px;
+    width: 11%;
+    border: 2px solid #ff671d;
+    float: right;
+    text-shadow: 3px 3px 5px black;
+    padding-top: 12px;
+    padding-bottom: 14px;
+    margin-right: 10px;
 }
 li#hassle {
     text-indent: -120px;
