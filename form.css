@@ -60,10 +60,11 @@ input[type="text"],
     height: 100%;
     opacity: .95;
     display: none;
-    position: fixed;
+    position: absolute;
     background-color: #313131;
     overflow: auto;
     margin-top: -355px;
+    width: 100%;
 }
 img#close {
     right: -50px;
