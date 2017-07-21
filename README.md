@@ -26,4 +26,4 @@
 
 <img src="https://user-images.githubusercontent.com/17644847/28457661-e99abcb4-6dfe-11e7-8a17-ff43ee7ce5c9.png" width="45%">
 
-- Users may direct to "Home" or "Login"
+- Users may direct to "Home" or "Login" using buttons at the top of page
