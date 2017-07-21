@@ -1,0 +1,22 @@
+img#color-logo {
+  height: 22%;
+  width: 22%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+.confirm-head {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #006bb7;
+}
+.home {
+  border: 2px solid #ff671d;
+  border-radius: 3px;
+  background-color: Transparent;
+  font-size: 20px;
+  color: #006bb7;
+  margin: 0 auto;
+  display: block;
+  padding: 8px 20px 8px 20px;
+}
