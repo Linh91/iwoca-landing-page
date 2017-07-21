@@ -20,4 +20,4 @@
 
 ![screen shot 2017-07-21 at 10 25 09](https://user-images.githubusercontent.com/17644847/28457661-e99abcb4-6dfe-11e7-8a17-ff43ee7ce5c9.png)
 
-- Users pay return "Home" or "Login"
+- Users may direct to "Home" or "Login"
