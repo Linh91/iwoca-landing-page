@@ -1,13 +1,17 @@
-# iwoca landing page
+## iwoca landing page
 <a href="https://imgflip.com/gif/1suc8z"><img src="https://i.imgflip.com/1suc8z.gif"/></a> 
 
-## The Brief
+### The Brief
 - A simple callback landing page
 - A basic outline of what iwoca does 
 - A form that asks them for their name, phone number and email (email is optional)
 - The form should include a checkbox to confirm if they are happy to receive marketing emails
 
-## Features 
+### Configuration
+- Clone this repo
+- Copy full path of <strong>iwoca.html</strong> onto browser
+
+### Features 
 - Name and telephone number fields can not be empty
 
  <img src="https://user-images.githubusercontent.com/17644847/28456668-00d2c4e8-6dfb-11e7-98d7-9cbfd603f323.png" width="35%">
